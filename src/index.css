@@ -1,0 +1,230 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cont{
+  padding: 0px 32px  1px 1px;
+  width: 80%;
+  margin: 41px auto;
+  box-shadow: 30px 40px 4px rgba(0, 0, 0, 0.219);
+  border-radius: 20px;
+}
+
+.width-small{
+  width: 145px;
+}
+
+.ln{
+  line-height: 5rem;
+}
+
+.w-max{
+  width: 200px;
+  justify-content: space-around;
+}
+
+.side-nav{
+  position: fixed;
+  top:0;
+  overflow: hidden;
+  left: 0;
+  padding-top: 200px;
+  padding-left: 10px;
+}
+
+.niceFont{
+  font-size:17px;
+  font-weight: lighter;
+  margin: 0 10px;
+  text-transform: capitalize;
+}
+
+.vh-75{
+  min-height: 80vh;
+}
+
+.custom-header{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.customFont{
+  background:conic-gradient(rgb(116, 24, 47) 266deg, rgba(0, 68, 255, 0.74) 50deg);
+  background-size: 100%;
+  font-size: clamp(2em, 2.5rem, 6em);
+  font-weight: bolder;
+  font-family:Arial, Helvetica, sans-serif;
+  -webkit-background-clip:text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color:transparent;
+
+}
+
+.leadFont{
+  font-size: clamp(0.5rem, 1em, 2rem);
+  color: rgb(233, 78, 78);
+  text-shadow: 10px 9px 9px rgba(255, 0, 0, 0.089);
+}
+
+.header-right{
+  position: relative;
+  margin-top: 30px;
+}
+
+.box{
+  overflow: hidden;
+  width: clamp(12rem, 9em, 18rem);
+  height: clamp(12rem, 9em, 18rem);
+  background:rgba(89, 221, 77, 0.87);
+  opacity: 0.4;
+  border-radius: 3px;
+  margin-top: 20%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in 0.7s;
+  box-shadow: 20px 10px 50px rgb(0, 0, 0);
+}
+
+.box:hover{
+  transform: scale(0.5);
+}
+
+.box::after, .box-1::after,.box-2::after{
+  content: "";
+  width: 95%;
+  height: 95%;
+  position: absolute;
+  border-radius: 3px;
+}
+
+.box::after{
+  background:rgba(24, 219, 6, 0.952);
+}
+
+.box-1::after{
+  background:rgb(1, 14, 85);
+}
+
+.box-2::after{
+  background:rgb(250, 12, 12);
+
+}
+
+.box::before, .box-1::before,.box-2::before{
+ content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+
+}
+
+.box::before{
+  background:conic-gradient( rgba(2, 131, 30, 0.801) 60deg, transparent 120deg);
+  animation: rotate 10s linear infinite;
+  opacity: 0.9;
+}
+
+.box-1::before{
+  background:conic-gradient( rgb(1, 26, 255) 60deg, transparent 120deg);
+  animation: rotate 12s linear infinite alternate-reverse;
+  opacity: 0.9;
+}
+.box-2::before{
+  background:conic-gradient( rgb(233, 12, 12) 60deg, transparent 120deg);
+  animation: rotate 10s linear infinite alternate-reverse;
+  opacity: 0.9;
+}
+
+.box-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: clamp(7rem, 10em, 16rem);
+  height: clamp(7rem, 10em, 16rem);
+  background:rgba(86, 111, 252, 0.87);
+  opacity: 0.4;
+  border-radius: 3px;
+  position: absolute;
+  left:-70px;
+  top:150px;
+  box-shadow: 20px 2px 55px rgba(0, 0, 0, 0.089);
+  overflow: hidden;
+  transition: all ease-in 0.5s;
+}
+
+.box-1:hover{
+  transform: scale(0.5);
+}
+
+.box-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: clamp(7rem, 10em, 14rem);
+  height: clamp(7rem, 10em, 14rem);
+  background:rgba(241, 101, 101, 0.822);
+  opacity: 0.4;
+  border-radius: 3px;
+  box-shadow: 20px 2px 55px rgba(0, 0, 0, 0.089);
+  position: absolute;
+  overflow: hidden;
+  top: -30px;
+  left:80px;
+  transition: all ease-in 0.3s;
+}
+
+.box-2:hover{
+  transform: scale(0.5);
+}
+
+.w-medium{
+  width: 75%;
+}
+
+@keyframes rotate{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+@media (max-width:1000px){
+  .container{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .custom-header{
+    display: block;
+  }
+
+  .w-medium{
+    width: 100%;
+  }
+
+  .header-right{
+    width: 40%;
+    margin: auto;
+  }
+
+  .box{
+    width: clamp(7rem, 10em, 16rem);
+    height: clamp(7rem, 10em, 16rem);
+  }
+
+  .box-1{
+    width: clamp(4rem, 6em, 10rem);
+    height: clamp(4rem, 6em, 10rem);
+    top: 90px;
+  }
+
+  .box-2{
+    width: clamp(5rem, 6em, 10rem);
+    height: clamp(5rem, 6em, 10rem);
+    top:-30px;
+    left:90px;
+  }
+}
