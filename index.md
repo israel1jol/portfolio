@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## DotHatake
 
-You can use the [editor on GitHub](https://github.com/israel1jol/portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Hey, I'm Dot but you can also refer to me as Israel 🧔 . 
+I'm a 19yr old CS Major from the University of Lagos, Nigeria 🇳🇬.
+I'm a MERN stack and Laravel PHP software developer.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### My Journey
+I started programming in 2015 and my first learning tool was scratch from MIT. 
+I developed alot of cool applications with it for about four months but I didn't really do much with it afterward.
+In 2018, I decided to take up programming again and went ahead to learn python.
+This was the first actual programming language I had learnt and I felt proud of myself for pushing through Tim Berners-Lee 300+ page book.
+I learnt alot about programming in general and it really helped solidify my understanding of core programming concepts.
+Sadly, I didn't do much with python after completing the book except creating a few basic apps with Tkinter and turtle.
+Two years later, I decided to create my github account and actually give this programming thing some serious consideration
+and so I took up HTML, CSS and Javascript. In just a month, I was creating static web apps that I could be proud of. But that wasn't enough 
+for me so I learnt the react framework. I fell in love with it, it felt so easy to begin with, like I was reuniting with something i didn't know
+I had lost. I then took up FE libraries such as SASS and BOOTSTRAP. 
 
 ```markdown
-Syntax highlighted code block
+List achievements
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+### More About Me
+I'm an avid gaming enthusiast. I love the playstation and i've been a ps nerd for the past 15yrs 🎮.
+I've recently taking an interest in learning data science with python and I hope this career path works out for me lol 😂.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Projects
 
-### Jekyll Themes
+List projects here
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/israel1jol/portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Contact Me
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[LinkedIn](https://docs.github.com/categories/github-pages-basics/)
