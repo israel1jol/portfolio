@@ -1,8 +1,7 @@
 ## DotHatake
 
 Hey, I'm Dot but you can also refer to me as Israel 🧔 . 
-I'm a 19yr old CS Major from the University of Lagos, Nigeria 🇳🇬.
-I'm a MERN stack and Laravel PHP software developer.
+I'm a 19yr old CS Major from the University of Lagos, Nigeria 🇳🇬, a MERN stack and Laravel PHP software developer.
 
 ### My Journey
 I started programming in 2015 and my first learning tool was scratch from MIT. 
