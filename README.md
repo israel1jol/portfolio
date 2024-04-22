@@ -20,8 +20,7 @@ List achievements
 
 ```
 ### More About Me
-I'm an avid gaming enthusiast. I love the playstation and i've been a ps nerd for the past 15yrs 🎮.
-I've recently taking an interest in learning data science with python and I hope this career path works out for me lol 😂.
+I'm an avid gaming enthusiast. I love the playstation, and i've been a ps nerd for the past 15yrs 🎮.
 
 ### Projects
 
