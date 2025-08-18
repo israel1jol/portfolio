@@ -152,7 +152,7 @@ export default function Portfolio() {
                         <div className="w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mx-auto mb-4"></div>
                         <p className="text-lg font-medium">Your Photo Here</p>
                       </div> */}
-                      <img src="photo.jpg" alt="Israel Adigun" className="w-full h-full object-cover" />
+                      <img src="https://i.postimg.cc/B6V4yFgG/photo.jpg" alt="Israel Adigun" className="w-full h-full object-cover" />
                     </div>
                   </div>
                 </div>
