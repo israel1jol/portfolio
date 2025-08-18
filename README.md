@@ -91,39 +91,4 @@ portfolio/
 
 ### GitHub Pages
 1. Install gh-pages: `npm install --save-dev gh-pages`
-2. Add to package.json: `"homepage": "https://yourusername.github.io/portfolio"`
-3. Add deploy scripts:
-   ```json
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
-   }
-   ```
-4. Deploy: `npm run deploy`
-
-## 🔧 Development
-
-### Available Scripts
-- `npm start` - Run development server
-- `npm run build` - Create production build
-- `npm test` - Run test suite
-- `npm run eject` - Eject from Create React App (irreversible)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -m 'Add feature'`
-4. Push to branch: `git push origin feature-name`
-5. Open a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Tailwind CSS** for the utility-first styling approach
-- **Lucide React** for the beautiful icon set
-- **React** team for the excellent framework
-- **Modern CSS** techniques for smooth animations
+2. Add to package.json: `"homepage": "https://y

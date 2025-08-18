@@ -378,7 +378,4 @@ export default function Portfolio() {
         .animate-float-slow {
           animation: float 4s ease-in-out infinite 2s;
         }
-      `}</style>
-    </div>
-  );
-}
+    
