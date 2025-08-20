@@ -63,13 +63,13 @@ export default function Portfolio() {
                 <a href="#contact" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">Contact</a>
               </div>
               <div className={`flex space-x-4 transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'}`}>
-                <a href="#" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
+                <a href="https://www.github.com/israel1jol" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="#" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
+                <a href="https://www.linkedin.com/in/israel-adigun-81b99a374/" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="gmail:adigun.jolly@gmail.com" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
+                <a href="mailto:adigun.jolly@gmail.com" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
@@ -122,13 +122,13 @@ export default function Portfolio() {
 
               <div className={`transition-all duration-1000 delay-1300 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}>
                 <div className="flex space-x-6 md:hidden">
-                  <a href="#" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
+                  <a href="https://www.github.com/israel1jol" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
                     <Github className="w-6 h-6" />
                   </a>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
+                  <a href="https://www.linkedin.com/in/israel-adigun-81b99a374/" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
                     <Linkedin className="w-6 h-6" />
                   </a>
-                  <a href="#" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
+                  <a href="mailto:adigun.jolly@gmail.com" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
                     <Mail className="w-6 h-6" />
                   </a>
                 </div>
@@ -143,21 +143,14 @@ export default function Portfolio() {
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full blur-3xl opacity-20 animate-pulse"></div>
                   <div className="absolute -top-4 -right-4 w-72 h-72 bg-gradient-to-r from-pink-400 to-blue-500 rounded-full blur-2xl opacity-10 animate-bounce"></div>
                   
-                  {/* Photo placeholder - replace with your actual image */}
                   <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl overflow-hidden aspect-square shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105">
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-600/20"></div>
                     <div className="flex items-center justify-center h-full text-gray-500">
-                      {/* Replace this div with: <img src="your-photo.jpg" alt="Your Name" className="w-full h-full object-cover" /> */}
-                      {/* <div className="text-center">
-                        <div className="w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mx-auto mb-4"></div>
-                        <p className="text-lg font-medium">Your Photo Here</p>
-                      </div> */}
                       <img src="https://i.postimg.cc/B6V4yFgG/photo.jpg" alt="Israel Adigun" className="w-full h-full object-cover" />
                     </div>
                   </div>
                 </div>
                 
-                {/* Floating skill badges */}
                 <div className="absolute -left-8 top-1/4 animate-float">
                   <div className="bg-white/90 backdrop-blur-sm rounded-lg px-3 py-2 shadow-lg border border-gray-200">
                     <span className="text-sm font-medium text-gray-700">React</span>
