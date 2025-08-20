@@ -52,24 +52,24 @@ export default function Portfolio() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className={`text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'}`}>
+            <div className={`text-2xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'}`}>
               Portfolio
             </div>
             <div className="flex items-center space-x-8">
               <div className={`hidden md:flex space-x-8 transition-all duration-1000 delay-300 ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'}`}>
-                <a href="#home" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Home</a>
-                <a href="#projects" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Projects</a>
-                <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">About</a>
-                <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">Contact</a>
+                <a href="#home" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">Home</a>
+                <a href="#projects" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">Projects</a>
+                <a href="#about" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">About</a>
+                <a href="#contact" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">Contact</a>
               </div>
               <div className={`flex space-x-4 transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'}`}>
-                <a href="#" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
+                <a href="#" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="#" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
+                <a href="#" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="gmail:adigun.jolly@gmail.com" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
+                <a href="gmail:adigun.jolly@gmail.com" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
@@ -85,16 +85,16 @@ export default function Portfolio() {
             {/* Left Side - Text Content */}
             <div className="space-y-8">
               <div className={`transition-all duration-1000 delay-500 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}>
-                <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
+                <h1 className="text-5xl lg:text-7xl font-bold text-gray-800 leading-tight">
                   Hello, I'm
-                  <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-pulse">
+                  <span className="block bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 bg-clip-text text-transparent animate-pulse">
                     Israel Adigun
                   </span>
                 </h1>
               </div>
               
               <div className={`transition-all duration-1000 delay-700 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}>
-                <div className="text-2xl lg:text-3xl text-gray-600 h-12">
+                <div className="text-2xl lg:text-3xl text-gray-800 h-12">
                   <span className="inline-block transition-all duration-500 transform">
                     {roles[currentRole]}
                   </span>
@@ -102,7 +102,7 @@ export default function Portfolio() {
               </div>
 
               <div className={`transition-all duration-1000 delay-900 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}>
-                <p className="text-lg text-gray-600 leading-relaxed max-w-xl">
+                <p className="text-lg text-gray-800 leading-relaxed max-w-xl">
                   Passionate about creating exceptional digital experiences through clean code, 
                   innovative design, and seamless user interactions. Let's build something amazing together.
                 </p>
@@ -110,7 +110,7 @@ export default function Portfolio() {
 
               <div className={`transition-all duration-1000 delay-1100 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}>
                 <div className="flex flex-wrap gap-4">
-                  <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">
+                  <button className="px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-600 text-white rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">
                     View My Work
                   </button>
                   {/* <button className="px-8 py-4 border-2 border-gray-300 text-gray-700 rounded-lg font-semibold hover:border-blue-600 hover:text-blue-600 hover:scale-105 transition-all duration-300">
