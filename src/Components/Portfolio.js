@@ -146,7 +146,7 @@ export default function Portfolio() {
                   <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl overflow-hidden aspect-square shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105">
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-600/20"></div>
                     <div className="flex items-center justify-center h-full text-gray-500">
-                      <img src="https://i.postimg.cc/B6V4yFgG/photo.jpg" alt="Israel Adigun" className="w-full h-full object-cover" />
+                      <img src="https://i.postimg.cc/Jz82RdRd/IMG-4871.jpg" alt="Israel Adigun" className="w-full h-full object-cover" />
                     </div>
                   </div>
                 </div>
