@@ -28,20 +28,23 @@ export default function Portfolio() {
       title: "College Account Manager",
       description: "A user-friendly web application designed to streamline account management tasks, offering secure access to user profiles, settings, and activity tracking with an intuitive interface for efficient college administration.",
       tech: ["Django", "Typescript", "Sqlite"],
-      icon: <Code className="w-6 h-6" />
-    },
-    {
-      title: "Expense Tracker",
-      description: "A sleek web app for effortlessly tracking and managing personal or business expenses, featuring intuitive categorization, real-time budgeting, and insightful spending reports to promote financial clarity and control.",
-      tech: ["React", "TypeScript", "MongoDB"],
-      icon: <Palette className="w-6 h-6" />
+      icon: <Code className="w-6 h-6" />,
+      link:"https://awkwardturtlesproject.onrender.com"
     },
     {
       title: "Real-time Messaging App",
       description: "A dynamic web app enabling instant, secure real-time messaging with features like group chats, multimedia sharing, and customizable notifications for seamless communication across devices.",
       tech: ["React", "MongoDB", "WebSocket"],
-      icon: <Zap className="w-6 h-6" />
-    }
+      icon: <Zap className="w-6 h-6" />,
+      link:"https://chatlio.onrender.com"
+    },
+    {
+      title: "Expense Tracker",
+      description: "A sleek web app for effortlessly tracking and managing personal or business expenses, featuring intuitive categorization, real-time budgeting, and insightful spending reports to promote financial clarity and control.",
+      tech: ["React", "TypeScript", "MongoDB"],
+      icon: <Palette className="w-6 h-6" />,
+      link:"https://expensetracker-0l5u.onrender.com"
+    },
   ];
 
   const skills = ["C", "Java", "React", "JavaScript", "TypeScript", "Node.js", "Django", "Python", "UI/UX", "MongoDB", "SQL", "Git", "AWS", "Web APIs", "System Design"];
@@ -187,7 +190,7 @@ export default function Portfolio() {
           
           <div className="grid md:grid-cols-3 gap-8">
             {projects.map((project, index) => (
-              <div 
+              <a href={project.link} target='_blank'
                 key={index}
                 className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group"
               >
@@ -209,7 +212,7 @@ export default function Portfolio() {
                     </span>
                   ))}
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
