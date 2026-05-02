@@ -25,29 +25,32 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "College Account Manager",
-      description: "A user-friendly web application designed to streamline account management tasks, offering secure access to user profiles, settings, and activity tracking with an intuitive interface for efficient college administration.",
-      tech: ["Django", "Typescript", "Sqlite"],
+      title: "Account Management Web App",
+      description: "Led a 5-person team building a Django-powered platform for educational organizations. Implemented secure user authentication, role-based access control, and designed the database schema enabling efficient management of courses and sections.",
+      tech: ["Django", "Python", "TypeScript", "SQLite"],
       icon: <Code className="w-6 h-6" />,
-      link:"https://awkwardturtlesproject.onrender.com"
+      link: "https://awkwardturtlesproject.onrender.com",
+      date: "Sep 2024 – Mar 2025"
     },
     {
-      title: "Real-time Messaging App",
-      description: "A dynamic web app enabling instant, secure real-time messaging with features like group chats, multimedia sharing, and customizable notifications for seamless communication across devices.",
-      tech: ["React", "MongoDB", "WebSocket"],
+      title: "Real-Time Chat Messaging",
+      description: "Built a TypeScript React + Node.js chat app with JWT auth, AWS S3, and WebSockets—scaled to 50+ concurrent users. Migrated full codebase to TypeScript with strict type-safety across Redux state and Express middleware.",
+      tech: ["TypeScript", "React", "Node.js", "WebSockets", "AWS S3"],
       icon: <Zap className="w-6 h-6" />,
-      link:"https://chatlio.onrender.com"
+      link: "https://chatlio.onrender.com",
+      date: "Jan 2024 – May 2026"
     },
     {
-      title: "Expense Tracker",
-      description: "A sleek web app for effortlessly tracking and managing personal or business expenses, featuring intuitive categorization, real-time budgeting, and insightful spending reports to promote financial clarity and control.",
-      tech: ["React", "TypeScript", "MongoDB"],
+      title: "Reportable",
+      description: "Contributing to a developer-focused reporting platform where users sign up, generate an API key, and POST data from scripts or cron jobs to view auto-updating reports via a dashboard.",
+      tech: ["TypeScript", "React", "Hono", "Cloudflare Workers", "OpenAPI"],
       icon: <Palette className="w-6 h-6" />,
-      link:"https://expensetracker-0l5u.onrender.com"
+      link: "https://demo.reportable.cc/",
+      date: "Apr 2026 – Present"
     },
   ];
 
-  const skills = ["C", "Java", "React", "JavaScript", "TypeScript", "Node.js", "Django", "Python", "UI/UX", "MongoDB", "SQL", "Git", "AWS", "Web APIs", "System Design"];
+  const skills = ["Python", "JavaScript", "TypeScript", "Java", "C", "PHP", "Django", "Node.js", "WebSockets", "REST APIs", "React", "HTML/CSS", "MongoDB", "PostgreSQL", "AWS", "Git", "CI/CD", "AWS EC2", "Data Structures", "Algorithms", "System Design", "Agile"];
 
   return (
     <div className="min-h-screen bg-white">
@@ -63,7 +66,6 @@ export default function Portfolio() {
                 <a href="#home" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">Home</a>
                 <a href="#projects" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">Projects</a>
                 <a href="#about" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">About</a>
-                <a href="#contact" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">Contact</a>
               </div>
               <div className={`flex space-x-4 transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'}`}>
                 <a href="https://www.github.com/israel1jol" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
@@ -200,7 +202,8 @@ export default function Portfolio() {
                   </div>
                   <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors duration-300" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.title}</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">{project.title}</h3>
+                {project.date && <p className="text-xs text-gray-400 mb-2">{project.date}</p>}
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech, techIndex) => (
@@ -228,19 +231,22 @@ export default function Portfolio() {
                 <h2 className="text-4xl font-bold text-gray-900 mb-6">About Me</h2>
                 <div className="space-y-4 text-gray-600 leading-relaxed">
                   <p>
-                    I'm a passionate developer with over 3 years of experience creating digital solutions 
-                    that bridge the gap between design and functionality. My journey began with a curiosity 
-                    for how things work, which evolved into a love for building exceptional user experiences.
+                    I'm a recent Computer Science graduate from the University of Wisconsin-Milwaukee with
+                    hands-on experience building full-stack applications from the ground up. My background spans
+                    backend systems with Django and Node.js, frontend interfaces with React and TypeScript, and
+                    cloud infrastructure with AWS — skills I developed through real projects, not just coursework.
                   </p>
                   <p>
-                    When I'm not coding, you can find me exploring new technologies, contributing to open-source 
-                    projects, or mentoring aspiring developers. I believe in the power of clean, maintainable 
-                    code and user-centered design.
+                    During school I led a 5-person team to ship a Django-powered account management platform,
+                    and independently built a real-time chat application that I later migrated entirely to
+                    TypeScript — refactoring Redux state, Express middleware, and architecting scalable media
+                    storage with AWS S3. Those projects taught me how to make deliberate technical decisions
+                    and see them through to production.
                   </p>
                   <p>
-                    I specialize in modern JavaScript frameworks and have a keen eye for detail when it comes 
-                    to creating intuitive interfaces. My goal is always to create solutions that not only work 
-                    flawlessly but also delight users.
+                    I care about writing code that's reliable, readable, and built to last. I'm currently
+                    looking for a software engineering role where I can keep growing, contribute to a
+                    strong team, and work on problems that actually matter to the people using the product.
                   </p>
                 </div>
               </div>
@@ -250,12 +256,8 @@ export default function Portfolio() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">Experience</h3>
                   <div className="space-y-4">
                     <div>
-                      <h4 className="font-medium text-gray-900">Frontend Development Intern</h4>
-                      <p className="text-gray-600 text-sm">University of Wisconsin-Milwaukee • Feb 2024 - Apr 2025</p>
-                    </div>
-                    <div>
-                      <h4 className="font-medium text-gray-900">Software Development Intern</h4>
-                      <p className="text-gray-600 text-sm">Epic Systems. • Jun 2023 - Dec 2023</p>
+                      <h4 className="font-medium text-gray-900">Production Associate</h4>
+                      <p className="text-gray-600 text-sm">Boston Scientific • Jul 2025 – Feb 2026</p>
                     </div>
                   </div>
                 </div>
@@ -285,12 +287,12 @@ export default function Portfolio() {
                   <div className="text-gray-700">Projects Completed</div>
                 </div>
                 <div className="text-center p-6 bg-gradient-to-br from-green-50 to-blue-50 rounded-xl">
-                  <div className="text-3xl font-bold text-green-600 mb-2">2+</div>
-                  <div className="text-gray-700">Years Experience</div>
+                  <div className="text-3xl font-bold text-green-600 mb-2">50+</div>
+                  <div className="text-gray-700">Concurrent Users Scaled</div>
                 </div>
                 <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl">
-                  <div className="text-3xl font-bold text-purple-600 mb-2">15+</div>
-                  <div className="text-gray-700">Happy Clients</div>
+                  <div className="text-3xl font-bold text-purple-600 mb-2">5</div>
+                  <div className="text-gray-700">Person Team Led</div>
                 </div>
                 <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-red-50 rounded-xl">
                   <div className="text-3xl font-bold text-orange-600 mb-2">10+</div>
