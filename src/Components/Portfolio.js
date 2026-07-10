@@ -25,7 +25,7 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Account Management Web App",
+      title: "AwkwardTurtles — Account Management Web App",
       description: "Led a 5-person team building a Django-powered platform for educational organizations. Implemented secure user authentication, role-based access control, and designed the database schema enabling efficient management of courses and sections.",
       tech: ["Django", "Python", "TypeScript", "SQLite"],
       icon: <Code className="w-6 h-6" />,
@@ -33,7 +33,7 @@ export default function Portfolio() {
       date: "Sep 2024 – Mar 2025"
     },
     {
-      title: "Real-Time Chat Messaging",
+      title: "Chatlio — Real-Time Chat Messaging",
       description: "Built a TypeScript React + Node.js chat app with JWT auth, AWS S3, and WebSockets—scaled to 50+ concurrent users. Migrated full codebase to TypeScript with strict type-safety across Redux state and Express middleware.",
       tech: ["TypeScript", "React", "Node.js", "WebSockets", "AWS S3"],
       icon: <Zap className="w-6 h-6" />,
@@ -41,12 +41,12 @@ export default function Portfolio() {
       date: "Jan 2024 – May 2026"
     },
     {
-      title: "Reportable",
-      description: "Contributing to a developer-focused reporting platform where users sign up, generate an API key, and POST data from scripts or cron jobs to view auto-updating reports via a dashboard.",
-      tech: ["TypeScript", "React", "Hono", "Cloudflare Workers", "OpenAPI"],
+      title: "ÌTÀN — Atlas of African Peoples",
+      description: "Developed a fully static, vanilla JavaScript interactive atlas that re-centers African history around peoples rather than colonial borders. Built live-fetching expeditions with gamified quests, interactive timelines, artifact collection, and quizzes powered by Wikipedia and Wikidata APIs.",
+      tech: ["Vanilla JavaScript", "HTML/CSS (3D transforms)", "Wikidata APIs,", "Web Audio API"],
       icon: <Palette className="w-6 h-6" />,
-      link: "https://demo.reportable.cc/",
-      date: "Apr 2026 – Present"
+      link: "https://israel1jol.github.io/itan/",
+      date: "Apr 2026 – May 2026"
     },
   ];
 
@@ -68,14 +68,19 @@ export default function Portfolio() {
                 <a href="#about" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">About</a>
               </div>
               <div className={`flex space-x-4 transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'}`}>
-                <a href="https://www.github.com/israel1jol" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
+                <a href="https://www.github.com/israel1jol" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300" target="_blank">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="https://www.linkedin.com/in/israel-adigun-81b99a374/" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
+                <a href="https://www.linkedin.com/in/israel-adigun-81b99a374/" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300" target="_blank">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="mailto:adigun.jolly@gmail.com" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300">
-                  <Mail className="w-5 h-5" />
+                <a 
+                  href="mailto:adigun.jolly@gmail.com?subject=Inquiry%20from%20Website"
+                  className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300 flex items-center gap-2 group"
+                  aria-label="Send email to Israel Adigun"
+                  title="Send email"
+                >
+                  <Mail className="w-5 h-5 group-hover:rotate-12 transition-transform" />
                 </a>
               </div>
             </div>
@@ -256,8 +261,16 @@ export default function Portfolio() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">Experience</h3>
                   <div className="space-y-4">
                     <div>
+                      <h4 className="font-medium text-gray-900">Software Contributor</h4>
+                      <p className="text-gray-600 text-sm">Postbrief • Apr 2026 – Jun 2026</p>
+                    </div>
+                    <div>
                       <h4 className="font-medium text-gray-900">Production Associate</h4>
                       <p className="text-gray-600 text-sm">Boston Scientific • Jul 2025 – Feb 2026</p>
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-gray-900">Undergraduate Research Assistant</h4>
+                      <p className="text-gray-600 text-sm">Boston Scientific • May 2023 – Oct 2023</p>
                     </div>
                   </div>
                 </div>
