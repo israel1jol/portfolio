@@ -77,37 +77,12 @@ portfolio/
 - **Tablet**: 768px - 1024px - Adjusted grid columns
 - **Desktop**: > 1024px - Full multi-column layouts
 
-## 🚀 Deployment
-
-### Netlify
-1. Build the project: `npm run build`
-2. Deploy the `build` folder to Netlify
-3. Set up continuous deployment from your Git repository
-
-### Vercel
-1. Connect your GitHub repository to Vercel
-2. Vercel will automatically detect it's a React app
-3. Deploy with zero configuration
-
-### GitHub Pages
-1. Install gh-pages: `npm install --save-dev gh-pages`
-2. Add to package.json: `"homepage": "https://yourusername.github.io/portfolio"`
-3. Add deploy scripts:
-   ```json
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
-   }
-   ```
-4. Deploy: `npm run deploy`
-
 ## 🔧 Development
 
 ### Available Scripts
 - `npm start` - Run development server
 - `npm run build` - Create production build
-- `npm test` - Run test suite
-- `npm run eject` - Eject from Create React App (irreversible)
+<!-- - `npm test` - Run test suite -->
 
 ## 🤝 Contributing
 
