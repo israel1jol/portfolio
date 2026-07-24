@@ -120,7 +120,10 @@ export default function Portfolio() {
 
               <div className={`transition-all duration-1000 delay-1100 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}>
                 <div className="flex flex-wrap gap-4">
-                  <button className="px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-600 text-white rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">
+                  <button
+                    onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+                    className="px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-600 text-white rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
+                  >
                     View My Work
                   </button>
                   {/* <button className="px-8 py-4 border-2 border-gray-300 text-gray-700 rounded-lg font-semibold hover:border-blue-600 hover:text-blue-600 hover:scale-105 transition-all duration-300">
