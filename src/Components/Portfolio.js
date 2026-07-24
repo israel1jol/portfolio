@@ -71,7 +71,7 @@ export default function Portfolio() {
                 <a href="https://www.github.com/israeladigun" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300" target="_blank">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="https://www.linkedin.com/in/israel-adigun-81b99a374/" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300" target="_blank">
+                <a href="https://www.linkedin.com/in/israeladigun" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300" target="_blank">
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a 
@@ -138,7 +138,7 @@ export default function Portfolio() {
                   <a href="https://www.github.com/israeladigun" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
                     <Github className="w-6 h-6" />
                   </a>
-                  <a href="https://www.linkedin.com/in/israel-adigun-81b99a374/" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
+                  <a href="https://www.linkedin.com/in/israeladigun" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
                     <Linkedin className="w-6 h-6" />
                   </a>
                   <a href="mailto:adigun.jolly@gmail.com" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
