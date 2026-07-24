@@ -45,7 +45,7 @@ export default function Portfolio() {
       description: "Developed a fully static, vanilla JavaScript interactive atlas that re-centers African history around peoples rather than colonial borders. Built live-fetching expeditions with gamified quests, interactive timelines, artifact collection, and quizzes powered by Wikipedia and Wikidata APIs.",
       tech: ["Vanilla JavaScript", "HTML/CSS (3D transforms)", "Wikidata APIs,", "Web Audio API"],
       icon: <Palette className="w-6 h-6" />,
-      link: "https://israel1jol.github.io/itan/",
+      link: "https://israeladigun.github.io/itan/",
       date: "Apr 2026 – May 2026"
     },
   ];
@@ -68,7 +68,7 @@ export default function Portfolio() {
                 <a href="#about" className="text-gray-800 hover:text-gray-600 transition-colors duration-300">About</a>
               </div>
               <div className={`flex space-x-4 transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'}`}>
-                <a href="https://www.github.com/israel1jol" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300" target="_blank">
+                <a href="https://www.github.com/israeladigun" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300" target="_blank">
                   <Github className="w-5 h-5" />
                 </a>
                 <a href="https://www.linkedin.com/in/israel-adigun-81b99a374/" className="text-gray-800 hover:text-gray-600 hover:scale-110 transition-all duration-300" target="_blank">
@@ -135,7 +135,7 @@ export default function Portfolio() {
 
               <div className={`transition-all duration-1000 delay-1300 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}>
                 <div className="flex space-x-6 md:hidden">
-                  <a href="https://www.github.com/israel1jol" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
+                  <a href="https://www.github.com/israeladigun" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
                     <Github className="w-6 h-6" />
                   </a>
                   <a href="https://www.linkedin.com/in/israel-adigun-81b99a374/" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-all duration-300">
